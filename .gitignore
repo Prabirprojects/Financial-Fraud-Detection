@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+ccenv/
+
+# Dataset
+data/creditcard.csv
+
+# Model files
+models/fraud_detection_model.pkl
+
+# Streamlit
+.streamlit/secrets.toml
