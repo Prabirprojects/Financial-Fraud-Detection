@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_PATH = BASE_DIR / "models" / "fraud_detection_model.pkl"
 @st.cache_resource
 def load_model():
-    return joblib.load("MODEL_PATH")
+    return joblib.load(MODEL_PATH)
 
 
 model = load_model()
