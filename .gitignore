@@ -12,7 +12,7 @@ ccenv/
 data/creditcard.csv
 
 # Model files
-models/fraud_detection_model.pkl
+
 
 # Streamlit
 .streamlit/secrets.toml
